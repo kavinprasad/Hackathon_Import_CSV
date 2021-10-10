@@ -117,6 +117,16 @@ if($rows){
 else{
 	?> 
 	<h4 style="color: red;"><i class="fas fa-times-circle"></i>Error on Inserting Data</h4>	
+	 <div class="row">
+    <div class="col-6">
+      <h4>DataBase Name : <?php echo $database_name; ?></h4>
+      <h4>Number of Record : <?php echo $rows; echo " "; ?> </h4>
+    </div>
+    <div class="col-6">
+      <h4>Table Name : <?php echo $table; ?> </h4>
+      <h4>Processing Time : <?php echo $execute_time;  ?> Seconds </h4>
+    </div>
+  </div>
 	<?php
 	}
 }
