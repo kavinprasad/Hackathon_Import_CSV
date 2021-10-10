@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}.uploadtext{
+    font-family: 'Roboto Slab', serif;
+}
+.nav{
+   background:linear-gradient(to bottom right ,#8901ff,#3c00b4);
+
+    /* background-color: #7952B3; */
+}
+.nav-link{
+    font-family: 'Noto Serif', serif;
+}
+.headertext{
+    font-family: 'Noto Serif', serif
+}
+.nav-link1{
+    color: bisque;
+}
+
+footer {
+    height: 70px;
+    padding: 25px 50px;
+    background:linear-gradient(to bottom right ,#8901ff,#3c00b4);
+}
+footer a {
+    color: black;
+}
+footer p {
+    color: white;
+}
+.fontsize {
+    font-size: 25px;
+    padding-right: 5px;
+}
+.right {
+    float: right;
+    color: white;
+}
