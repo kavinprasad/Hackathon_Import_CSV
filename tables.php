@@ -70,7 +70,7 @@ if($reg1 ){
 // Insert Data Database table
 move_uploaded_file($temp_name,"csv/$file");
 
-$data_insert = "LOAD DATA INFILE '../../htdocs/Hackathon/csv/$file'
+$data_insert = "LOAD DATA INFILE '../../htdocs/Hackathon_Import_CSV/csv/$file'
                 INTO TABLE $table
                 FIELDS TERMINATED BY ','
 		          ";
